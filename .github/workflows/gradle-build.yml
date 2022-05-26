@@ -34,6 +34,7 @@ jobs:
         with:
           arguments: buildEnvironment
           build-root-directory: ideal-case/builds
+          gradle-executable: ./gradlew
   workaround-case-1:
     runs-on: ubuntu-latest
     steps:
